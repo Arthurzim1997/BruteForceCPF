@@ -1,0 +1,5 @@
+Examples:
+    bfcpf.py -c 1XX.X3X.568-XX                      # Brute force CPF, show output on terminal (default), use 10 threads (default) and use OSINT (default)
+    bfcpf.py -c XXX.345.567-XX -f yes               # Brute force CPF, save output to file, use 10 threads (default) and use OSINT (default)
+    bfcpf.py -c XXX.345.567-XX -f yes -t 25         # Brute force CPF, save output to file, use 25 threads and use OSINT (default)
+    bfcpf.py -c XXX.345.567-XX -f yes -t 25 -o no  # Brute force CPF, save output to file, use 25 threads and don't use OSINT
